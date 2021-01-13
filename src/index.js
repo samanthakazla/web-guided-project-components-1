@@ -95,7 +95,9 @@ function makePanel({ title, content }) {
   //  - the close button needs to show (the 'hide-btn' class name controls this)
   //  - the contents need to show (the 'toggle-on' class name controls this)
 
-  panelButtons.addEventListener('click')
+  panelButtons.addEventListener("click", (event) => {
+    debugger;
+  });
 
   // don't forget to return the panel!
   return panel;
