@@ -111,7 +111,7 @@ function makePanel({ title, content }) {
 //  creating panels for each content and title and append them to the DOM.
 //  We can do this with a single forEach, or with a map and a forEach.
 
-
+panelData.forEach(panelElement )
 
 // [STRETCH] Comment out the links inside the nav and
 // write a linkMaker that takes { href, className, text }
