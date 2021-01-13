@@ -89,6 +89,7 @@ function makePanel({ title, content }) {
   panelContent.textContent = content;
   openButton.textContent = arrows.open;
   closeButton.textContent = arrows.close;
+
   // TASK 9- When the 'open' or 'close' buttons are clicked, the content is toggled on/off:
   //  - the open button needs to go away (the 'hide-btn' class name controls this)
   //  - the close button needs to show (the 'hide-btn' class name controls this)
@@ -98,7 +99,7 @@ function makePanel({ title, content }) {
   return panel;
 }
 const test = makePanel({ title: "test title", content: "test content" });
-console.log(test);
+
 
 // TASK 10- Loop through the panelData we imported from the data folder
 //  creating panels for each content and title and append them to the DOM.
