@@ -114,8 +114,7 @@ function makePanel({ title, content }) {
 const panelELements = panelData.map((panelItem) => {
   return makePanel(panelItem);
 });
-
-panelData.forEach((panelElement) => {});
+console.log(panelELements);
 
 // [STRETCH] Comment out the links inside the nav and
 // write a linkMaker that takes { href, className, text }
