@@ -23,7 +23,7 @@ imageData.forEach((imgObj) => {
   // 1 - make an image
   const img = makeImage(imgObj);
   // 2 - attach to DOM
-  document.body.prepend(img); // attach to DOM
+  // document.body.prepend(img); // attach to DOM
 });
 // TASK 1- Import the data we need to "hydrate" our component.
 //  On the one hand, the default export from data/panelData.js
