@@ -112,7 +112,7 @@ function makePanel({ title, content }) {
 //  We can do this with a single forEach, or with a map and a forEach.
 
 // create panels => use .map to build an array of DOM elements
-const panelELements = panelData.map((panelItem) => {
+const panelELements = panelData.map((panelItem) => { // data hydrates component
   return makePanel(panelItem); // don't forget to return!
 });
 
