@@ -81,7 +81,7 @@ function makePanel({ title, content }) {
   panelContent.classList.add("panel-content");
   openButton.classList.add("panel-btn-open");
   closeButton.classList.add("panel-btn-close", "hide-btn");
-  
+
   // TASK 8- Set text content using arguments as raw material
   //  and also using the open and close arrows imported at the top of the file
 
@@ -91,7 +91,7 @@ function makePanel({ title, content }) {
   //  - the contents need to show (the 'toggle-on' class name controls this)
 
   // don't forget to return the panel!
-  return null;
+  return panel;
 }
 makePanel({ title: "test title", content: "test content" });
 
