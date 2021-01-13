@@ -111,11 +111,12 @@ function makePanel({ title, content }) {
 //  creating panels for each content and title and append them to the DOM.
 //  We can do this with a single forEach, or with a map and a forEach.
 
+// create panels => use .map to build an array of DOM elements
 const panelELements = panelData.map((panelItem) => {
-  return makePanel(panelItem);
+  return makePanel(panelItem); // don't forget to return!
 });
 
-console.log(panelELements);
+console.log(panelELements); // .map has returned an array!
 
 panelELements.forEach((panelElement) => {
   accordion.appendChild(panelElement);
