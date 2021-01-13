@@ -86,6 +86,9 @@ function makePanel({ title, content }) {
   //  and also using the open and close arrows imported at the top of the file
 
   panelTitle.textContent = title;
+  panelContent.textContent = content;
+  openButton.textContent = arrows.open;
+  closeButton.textContent = arrows.close;
   // TASK 9- When the 'open' or 'close' buttons are clicked, the content is toggled on/off:
   //  - the open button needs to go away (the 'hide-btn' class name controls this)
   //  - the close button needs to show (the 'hide-btn' class name controls this)
