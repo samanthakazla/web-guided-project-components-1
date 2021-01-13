@@ -75,7 +75,8 @@ function makePanel({ title, content }) {
 
   // TASK 7- Add proper class names to our elements (See index.html for reference)
   // paying attention to the elements that need to start out hidden
-
+  panel.classList.add("panel");
+  panel
   // TASK 8- Set text content using arguments as raw material
   //  and also using the open and close arrows imported at the top of the file
 
