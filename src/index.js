@@ -99,7 +99,7 @@ function makePanel({ title, content }) {
   return panel;
 }
 const test = makePanel({ title: "test title", content: "test content" });
-
+accordion.appendChild(test);
 
 // TASK 10- Loop through the panelData we imported from the data folder
 //  creating panels for each content and title and append them to the DOM.
