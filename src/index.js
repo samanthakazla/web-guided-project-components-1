@@ -112,7 +112,7 @@ function makePanel({ title, content }) {
 //  We can do this with a single forEach, or with a map and a forEach.
 
 const panelELements = panelData.map((panelItem) => {
-  makePanel(panelItem);
+  return makePanel(panelItem);
 });
 
 panelData.forEach((panelElement) => {});
