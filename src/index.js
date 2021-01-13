@@ -54,8 +54,8 @@ function makePanel({ title, content }) {
   const closeButton = document.createElement("button");
 
   // TASK 6- Setup the structure of our elements
-  panel.appendChild(panelBar)
-  panel.appendChild()
+  panel.appendChild(panelBar);
+  panel.appendChild(panelContent);
   /*
     <div>                   // panel
       <div>                 // panelBar
