@@ -118,6 +118,7 @@ const panelELements = panelData.map((panelItem) => {
 
 console.log(panelELements); // .map has returned an array!
 
+// append panels to DOM using .forEach
 panelELements.forEach((panelElement) => {
   accordion.appendChild(panelElement);
 });
